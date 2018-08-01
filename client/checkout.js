@@ -14,7 +14,7 @@ var check = new Vue({
     },
     methods: {
         checkout(){
-            axios.post('http://localhost:3000/users/transaction', {
+            axios.post('http://35.197.148.42/users/transaction', {
               name: this.name,
               email: this.email,
               address: this.address,
