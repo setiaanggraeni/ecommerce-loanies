@@ -13,7 +13,7 @@ var productList = new Vue({
   },
   methods: {
     register(){
-      axios.post('http://35.197.148.42/users/register', {
+      axios.post('https://loaniesserver.setiaanggraeni.co/users/register', {
         name: this.name,
         email: this.email,
         password: this.password,
@@ -33,7 +33,7 @@ var productList = new Vue({
       })
     },
     login(){
-      axios.post('http://35.197.148.42/users/login', {
+      axios.post('https://loaniesserver.setiaanggraeni.co/users/login', {
         email: this.email,
         password: this.password
       })

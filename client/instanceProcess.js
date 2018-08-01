@@ -40,7 +40,7 @@ var productList = new Vue({
       else if(visitorName === null){
         this.show = false
       }
-      axios.get('http://35.197.148.42/getAllProducts')
+      axios.get('https://loaniesserver.setiaanggraeni.co/getAllProducts')
       .then(products => {
         this.items=products.data
         // console.log(this.items);

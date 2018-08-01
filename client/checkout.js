@@ -14,7 +14,7 @@ var check = new Vue({
     },
     methods: {
         checkout(){
-            axios.post('http://35.197.148.42/users/transaction', {
+            axios.post('https://loaniesserver.setiaanggraeni.co/users/transaction', {
               name: this.name,
               email: this.email,
               address: this.address,

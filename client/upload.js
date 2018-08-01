@@ -24,7 +24,7 @@ var app = new Vue({
             formData.append('image', this.img)
             var self = this
             axios({
-                url: 'http://35.197.148.42/upload',
+                url: 'https://loaniesserver.setiaanggraeni.co/upload',
                 method: 'post',
                 data: formData
             })
@@ -32,7 +32,7 @@ var app = new Vue({
                 console.log(response)
 
                 axios({
-                    url: 'http://35.197.148.42/uploadmlab',
+                    url: 'https://loaniesserver.setiaanggraeni.co/uploadmlab',
                     method: 'post',
                     data: {
                         imgurl: response.data.link,
