@@ -1,0 +1,152 @@
+.navbar{
+    background-color: rgb(20, 231, 238)
+}
+
+#footer {
+    margin:0 auto;
+    width:100%;
+    background-color: #d4d5d6;
+    padding: 20px;
+    padding-left: 80px
+}
+
+/* .container-fluid{
+    width: 100%;
+} */
+
+.search-container{
+    top: 13px
+}
+
+#carouselExampleIndicators {
+    margin-top: 0px
+}
+nav{
+    margin-bottom: 0px
+}
+
+.fa-shopping-cart{
+    top: 13px
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+.fa-instagram {
+    background: #af3ebe;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+.sns{
+    align-content: right
+}
+
+.column {
+    float: center;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+#itemCount {
+    position: absolute;
+    display: block;
+    top: 12px;
+    right: 28px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    text-align: center;
+    font-size: 13px
+}
+
+#price {
+    color:orange
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-family: serif
+}
+
+.add {
+    border-radius: 20px
+}
+
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
